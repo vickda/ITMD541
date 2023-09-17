@@ -1,31 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
-    background: url('background.jpg') no-repeat center center fixed;
+    background-image:  url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
     background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     color: #fff;
+    background-color: #000; 
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: right;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center; /* Center align all text inside the container */
+    text-align: center;
+    margin-top: 100px;
 }
 
 h1 {
-    color: #ffcc00;
+    font-size: 48px; 
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #fff; 
 }
 
-p {
-    font-size: 1.2em;
-    line-height: 1.5;
+#typing-text {
+    display: inline-block;
+    animation: typing 2s infinite alternate;
 }
 
-.fun-fact {
-    font-weight: bold;
-    color: #FF5733;
+@keyframes typing {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
