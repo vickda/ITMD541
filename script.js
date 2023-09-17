@@ -1,4 +1,4 @@
-const jobTitles = ["Vicky Das","Grad Student","RPA Developer","Space Enthusiast"];
+const jobTitles = ["Vicky Das","A Grad Student","A RPA Developer","A Space Enthusiast"];
 let index = 0;
 
 function typeJobTitle() {
