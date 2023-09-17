@@ -33,7 +33,7 @@ nav a:hover {
 
 body {
     font-family: Arial, sans-serif;
-    background: url('background.jpg') no-repeat center center fixed;
+    background: beige;
     background-size: cover;
     color: #fff;
     margin: 0;
